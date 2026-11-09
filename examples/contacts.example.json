@@ -1,0 +1,6 @@
+{
+  "_help": "Label -> the names your bank prints for that person (any word order, any case). 'self' = you: it turns moves between your own accounts into internal transfers.",
+  "self": ["JANE Q DOE", "JANE DOE"],
+  "Mom": ["SAM SMITH"],
+  "Roommate": ["ALEX TAYLOR"]
+}

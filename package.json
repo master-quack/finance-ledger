@@ -1,0 +1,17 @@
+{
+  "name": "finance-ledger",
+  "version": "0.1.0",
+  "description": "Self-hosted personal finance ledger: reads bank alert emails/SMS (NayaPay, UBL, JazzCash) into a local JSON ledger with a small web dashboard.",
+  "type": "module",
+  "bin": { "ledger": "bin/ledger.js" },
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "start": "node bin/ledger.js run",
+    "test": "node --test test/"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "googleapis": "^171.4.0",
+    "write-file-atomic": "^6.0.0"
+  }
+}

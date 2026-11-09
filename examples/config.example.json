@@ -1,0 +1,13 @@
+{
+  "pollIntervalMinutes": 5,
+  "lookbackDays": 7,
+  "dashboardPort": 7780,
+  "dashboardBind": "127.0.0.1",
+  "gmailQuery": "(nayapay OR \"UBL netbanking\" OR ebanking@ubl)",
+  "startingBalances": {
+    "NayaPay": 0,
+    "UBL": 0
+  },
+  "balanceAsOf": "2026-01-01T00:00:00Z",
+  "smsSecret": ""
+}

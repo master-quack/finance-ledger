@@ -1,0 +1,15 @@
+node_modules/
+# Never commit real data or credentials. They live outside the repo
+# (~/.config/finance-ledger, ~/.local/share/finance-ledger), but just in case:
+*.local.json
+gmail-credentials.json
+gmail-token.json
+config.json
+transactions.json
+state.json
+aliases.json
+debts.json
+categories.json
+balance-anchors.json
+contacts.json
+.env

@@ -1,0 +1,14 @@
+[Unit]
+Description=Finance Ledger (dashboard + bank-alert poller)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=@INSTALL_DIR@
+ExecStart=@NODE@ @INSTALL_DIR@/bin/ledger.js run
+Restart=on-failure
+RestartSec=10
+
+[Install]
+WantedBy=default.target
